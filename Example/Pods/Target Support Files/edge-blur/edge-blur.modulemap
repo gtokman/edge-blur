@@ -1,0 +1,6 @@
+framework module edge_blur {
+  umbrella header "edge-blur-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,5 +1,4 @@
 import XCTest
-import edge-blur
 
 class Tests: XCTestCase {
     

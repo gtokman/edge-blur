@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		141E4102CA31789E5DA61064 /* Pods_edge_blur_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3375EB1C6B807929D3A4DA3F /* Pods_edge_blur_Example.framework */; };
+		206206322E8F428600D70734 /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206206312E8F428600D70734 /* Preview.swift */; };
 		2D37ADF698150FBA019771F0 /* Pods_edge_blur_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A480457753298F3D20FDDF8 /* Pods_edge_blur_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		206206312E8F428600D70734 /* Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
 		3375EB1C6B807929D3A4DA3F /* Pods_edge_blur_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_edge_blur_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56E7FEE9512E7B4384FEDCCE /* Pods-edge-blur_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edge-blur_Example.release.xcconfig"; path = "Target Support Files/Pods-edge-blur_Example/Pods-edge-blur_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5A480457753298F3D20FDDF8 /* Pods_edge_blur_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_edge_blur_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,12 +43,12 @@
 		607FACE51AFB9204008FA782 /* edge-blur_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "edge-blur_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6E3137FD2FFA89EF739FF380 /* edge-blur.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "edge-blur.podspec"; path = "../edge-blur.podspec"; sourceTree = "<group>"; };
-		723CB48117B269D02E9C3C88 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6E3137FD2FFA89EF739FF380 /* edge-blur.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "edge-blur.podspec"; path = "../edge-blur.podspec"; sourceTree = "<group>"; };
+		723CB48117B269D02E9C3C88 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		75F80E96ECFCC5E8BC8C9763 /* Pods-edge-blur_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edge-blur_Tests.debug.xcconfig"; path = "Target Support Files/Pods-edge-blur_Tests/Pods-edge-blur_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9AC107EDAAD686A4AD5398D1 /* Pods-edge-blur_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edge-blur_Tests.release.xcconfig"; path = "Target Support Files/Pods-edge-blur_Tests/Pods-edge-blur_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D5723DDF0A8F3DFCA0881425 /* Pods-edge-blur_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edge-blur_Example.debug.xcconfig"; path = "Target Support Files/Pods-edge-blur_Example/Pods-edge-blur_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EF6A70336E90823194C4D601 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EF6A70336E90823194C4D601 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +79,6 @@
 				75F80E96ECFCC5E8BC8C9763 /* Pods-edge-blur_Tests.debug.xcconfig */,
 				9AC107EDAAD686A4AD5398D1 /* Pods-edge-blur_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -107,6 +108,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				206206312E8F428600D70734 /* Preview.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -213,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = NTP2A7PJM8;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = NTP2A7PJM8;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +231,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -333,6 +338,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				206206322E8F428600D70734 /* Preview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,7 +484,9 @@
 			baseConfigurationReference = D5723DDF0A8F3DFCA0881425 /* Pods-edge-blur_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NTP2A7PJM8;
 				INFOPLIST_FILE = "edge-blur/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -493,7 +501,9 @@
 			baseConfigurationReference = 56E7FEE9512E7B4384FEDCCE /* Pods-edge-blur_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NTP2A7PJM8;
 				INFOPLIST_FILE = "edge-blur/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -507,6 +517,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 75F80E96ECFCC5E8BC8C9763 /* Pods-edge-blur_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = NTP2A7PJM8;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +540,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9AC107EDAAD686A4AD5398D1 /* Pods-edge-blur_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = NTP2A7PJM8;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

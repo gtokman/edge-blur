@@ -1,0 +1,1026 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C701E4A6254E4B7E784BB3B0FFD89F /* VariableBlurUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5EAC8830EA616BCBC616001A84F99A /* VariableBlurUIView.swift */; };
+		069E525A626351AB8CACDFBF8C88CE4D /* AemiSDR.metallib in Sources */ = {isa = PBXBuildFile; fileRef = 31393D03CC2876A3C09336DEB6B03A4D /* AemiSDR.metallib */; };
+		08034F10D021BBE26E2ED2C4FD26A58B /* UICornerDiscoverable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0195CBD296896396A466CEB92CFD2B /* UICornerDiscoverable.swift */; };
+		1FA28C83B5E84F545FBAAEA66CE5E2F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		27941B1768BA95EBAB556C5569D7A6C3 /* VariableBlurCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2940612429873B34CC9D177F7DA030 /* VariableBlurCache.swift */; };
+		2B16B7E85214BF5EEB459C2B76F03FAA /* edge-blur-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6900A6D4C851E2BADCE527D1392DEF7B /* edge-blur-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C16B54A5AA5F93844ECA9961D124087 /* MaskType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F783F5032CA619BB6E4DA9ED2A5FE1 /* MaskType.swift */; };
+		3FEB7C16F433E08FCC2D2E49AB9232CE /* TransitionAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C605FA30515156BDD59632A2BE4F2E89 /* TransitionAlgorithm.swift */; };
+		42C76992DFF09CD5EA5859B9FFB3EA40 /* edge-blur.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3807CA3854FDA1D1ABD9DDB282E7B53B /* edge-blur.bundle */; };
+		47FEAC126DEB1479511E6071F4EAF5E8 /* UIScreen+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6759CED6DEF5EC53CAD39D4FDE4BDB /* UIScreen+Extensions.swift */; };
+		4CECAC41E91E91D560344CD14F9CBA03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		57850158676B62C6559D0E36CD4C01CC /* View+AlphaMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4899E7CEC8C298A444691401F001F2 /* View+AlphaMask.swift */; };
+		82E76C121785E1A6268585FCFDD8C778 /* View+VariableBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C201E7AF781B707E26A341A02D759C /* View+VariableBlur.swift */; };
+		835FC924CE629E75C0F62DAE7B8B4D86 /* Pods-edge-blur_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 900851B78A1F208C30062007C6505AED /* Pods-edge-blur_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84A35BCB121004C74001D976C30E208F /* AlphaMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5344BE97E5D80CBDAA8185F77D515 /* AlphaMaskView.swift */; };
+		8BE68EEAB798BEBF8906C8360F24DD53 /* Pods-edge-blur_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DBCA497EF7AC17970066FCADDB1F5E /* Pods-edge-blur_Example-dummy.m */; };
+		8FB33C2847571C6FFC072EDD40C6791E /* AemiSDR.ci.metal in Sources */ = {isa = PBXBuildFile; fileRef = 48EDCE64B8DE2FB96AD6C55605CBBCED /* AemiSDR.ci.metal */; };
+		91540306EA19A01D5FEE27D8C16DF32D /* Pods-edge-blur_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BAB47EA937D0203F7F9E60FFA4AD9D /* Pods-edge-blur_Tests-dummy.m */; };
+		9757068A7704D6012F8399CAA014132D /* edge-blur-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA09A47C8546F65CF455024A24A7296 /* edge-blur-dummy.m */; };
+		B61CD142C3E95F76C1B79EA3B295C0A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		B7FED7BEF282C794114C07005CA7D577 /* AemiSDR.metallib in Resources */ = {isa = PBXBuildFile; fileRef = 31393D03CC2876A3C09336DEB6B03A4D /* AemiSDR.metallib */; };
+		BD4050D733E0E54C34649A93D07E71E7 /* AlphaMaskUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3994C7A7ED62D6A2D1C1985B13078F15 /* AlphaMaskUIView.swift */; };
+		DB86DC61574EA14CF9CA9C792AAAC3A3 /* Pods-edge-blur_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38D860432B34813D951B938343A7EC39 /* Pods-edge-blur_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E39E11F81402ACFA172783B6F5B0F892 /* VariableBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584D026A955785F362B8AFFCD7541406 /* VariableBlurView.swift */; };
+		EBF467DC073FF8B9C10EB649E4A468E0 /* AlphaMaskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = C374D8BE54764637F8603139F691B8BB /* AlphaMaskCache.swift */; };
+		ED3A5D4126FE482EDE0A9C0EF60F18F9 /* CIKernelCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1544C576B28B97B95AD86B131FFD0A8 /* CIKernelCache.swift */; };
+		FB140C9CD07B76AC8E6A5EBC6806A153 /* UICornerContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7ED887A90B05D21055BA45D17FCACF /* UICornerContext.swift */; };
+		FDB3F459ACA586B03CD6A38C1F9C41C7 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1D747D48373AC38F2C8CA8BF2A0F4F /* View+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		011F8C64D25EC79B555D007DFD2A0758 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C66F947E3D3DB290FD48DFA46AE9C941;
+			remoteInfo = "edge-blur";
+		};
+		42BC78A12FD6419670312E33ED439E07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD5937B44F2321505455708E475AC850;
+			remoteInfo = "Pods-edge-blur_Example";
+		};
+		52E539F566B72C72A4B855D326F1C619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62AA0D99D88A5146FEF1B2BC78216EE1;
+			remoteInfo = "edge-blur-edge-blur";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10DBCA497EF7AC17970066FCADDB1F5E /* Pods-edge-blur_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-edge-blur_Example-dummy.m"; sourceTree = "<group>"; };
+		1B108F9E70A541A3C258C396EA311C00 /* edge-blur.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "edge-blur.debug.xcconfig"; sourceTree = "<group>"; };
+		2A281283A4419450E82108E24CEE5B63 /* Pods_edge_blur_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_edge_blur_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB21F12F193DAC910869081909D1A0D /* edge-blur.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "edge-blur.modulemap"; sourceTree = "<group>"; };
+		2B3CF78B76DF15D454D7278EEB1BA9B6 /* Pods-edge-blur_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-edge-blur_Tests-Info.plist"; sourceTree = "<group>"; };
+		31393D03CC2876A3C09336DEB6B03A4D /* AemiSDR.metallib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "archive.metal-library"; path = AemiSDR.metallib; sourceTree = "<group>"; };
+		329A6A9F8AEC154A4A0B7EEF0DFA6D06 /* Pods-edge-blur_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-edge-blur_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3807CA3854FDA1D1ABD9DDB282E7B53B /* edge-blur.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "edge-blur.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		38AC2E00667B85715586386B91EC7AD4 /* Pods-edge-blur_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-edge-blur_Tests.modulemap"; sourceTree = "<group>"; };
+		38D860432B34813D951B938343A7EC39 /* Pods-edge-blur_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-edge-blur_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3994C7A7ED62D6A2D1C1985B13078F15 /* AlphaMaskUIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlphaMaskUIView.swift; sourceTree = "<group>"; };
+		3F5FBD86D6CB6D94C1BBE88855B81027 /* edge-blur-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "edge-blur-Info.plist"; sourceTree = "<group>"; };
+		48EDCE64B8DE2FB96AD6C55605CBBCED /* AemiSDR.ci.metal */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.metal; path = AemiSDR.ci.metal; sourceTree = "<group>"; };
+		4ADBF7E964EFF761CB77DE6B0248E195 /* edge-blur-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "edge-blur-prefix.pch"; sourceTree = "<group>"; };
+		4DBF6370563C9FD9A8240FED9DE41659 /* edge-blur.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "edge-blur.release.xcconfig"; sourceTree = "<group>"; };
+		584D026A955785F362B8AFFCD7541406 /* VariableBlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VariableBlurView.swift; sourceTree = "<group>"; };
+		5AA09A47C8546F65CF455024A24A7296 /* edge-blur-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "edge-blur-dummy.m"; sourceTree = "<group>"; };
+		6900A6D4C851E2BADCE527D1392DEF7B /* edge-blur-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "edge-blur-umbrella.h"; sourceTree = "<group>"; };
+		6D4899E7CEC8C298A444691401F001F2 /* View+AlphaMask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "View+AlphaMask.swift"; sourceTree = "<group>"; };
+		73A06591F45DD7FB3290728D7253AD0D /* Pods-edge-blur_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-edge-blur_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7727007C25A46427DB9053859C4F0F34 /* Pods-edge-blur_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-edge-blur_Example.modulemap"; sourceTree = "<group>"; };
+		779AC16362C63526DD75BA75F0A2EA78 /* edge-blur.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "edge-blur.podspec"; sourceTree = "<group>"; tabWidth = 2; };
+		88B6B6BAB4BDBE3414429835FE6011E5 /* Pods-edge-blur_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-edge-blur_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8D2940612429873B34CC9D177F7DA030 /* VariableBlurCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VariableBlurCache.swift; sourceTree = "<group>"; };
+		8E402DCAC22080776B7ADA8E5C8658D1 /* Pods_edge_blur_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_edge_blur_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7ED887A90B05D21055BA45D17FCACF /* UICornerContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UICornerContext.swift; sourceTree = "<group>"; };
+		900851B78A1F208C30062007C6505AED /* Pods-edge-blur_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-edge-blur_Example-umbrella.h"; sourceTree = "<group>"; };
+		90FB359586899AF406953D20B3A17238 /* edge_blur.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = edge_blur.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94655AFFA4AB912ADC49B80C654F7C4B /* ResourceBundle-edge-blur-edge-blur-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-edge-blur-edge-blur-Info.plist"; sourceTree = "<group>"; };
+		9AA5344BE97E5D80CBDAA8185F77D515 /* AlphaMaskView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlphaMaskView.swift; sourceTree = "<group>"; };
+		9B0195CBD296896396A466CEB92CFD2B /* UICornerDiscoverable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UICornerDiscoverable.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EAAC4067A8BE7F367A7AD6FB4CB66EB /* Pods-edge-blur_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-edge-blur_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A1544C576B28B97B95AD86B131FFD0A8 /* CIKernelCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CIKernelCache.swift; sourceTree = "<group>"; };
+		C374D8BE54764637F8603139F691B8BB /* AlphaMaskCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlphaMaskCache.swift; sourceTree = "<group>"; };
+		C605FA30515156BDD59632A2BE4F2E89 /* TransitionAlgorithm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransitionAlgorithm.swift; sourceTree = "<group>"; };
+		CA071D869E2713CAA1875F86F535A751 /* Pods-edge-blur_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-edge-blur_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CE5EAC8830EA616BCBC616001A84F99A /* VariableBlurUIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VariableBlurUIView.swift; sourceTree = "<group>"; };
+		D2F783F5032CA619BB6E4DA9ED2A5FE1 /* MaskType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MaskType.swift; sourceTree = "<group>"; };
+		D8054492DE0B1169D1CB1B228D5EB757 /* Pods-edge-blur_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-edge-blur_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DAF6459E0ECC9197C5B1E50123929EBD /* Pods-edge-blur_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-edge-blur_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DC6759CED6DEF5EC53CAD39D4FDE4BDB /* UIScreen+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIScreen+Extensions.swift"; sourceTree = "<group>"; };
+		DD1D747D48373AC38F2C8CA8BF2A0F4F /* View+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		E44C3833A761A24A8AADD64F4F5197EB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E6074FC335D16F3B4F3CD6DA5BB5DA42 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E6C201E7AF781B707E26A341A02D759C /* View+VariableBlur.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "View+VariableBlur.swift"; sourceTree = "<group>"; };
+		E97C41FB56AEB59DB4058FA664713980 /* Pods-edge-blur_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-edge-blur_Example-Info.plist"; sourceTree = "<group>"; };
+		EDA2F482C6F03F4798159AD6DDBA6F5D /* Pods-edge-blur_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-edge-blur_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6059803B4FC106760F7724886BDCE5B /* Pods-edge-blur_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-edge-blur_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F9BAB47EA937D0203F7F9E60FFA4AD9D /* Pods-edge-blur_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-edge-blur_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85EEA6FC043EB10AC76E95D8BA479EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CECAC41E91E91D560344CD14F9CBA03 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1DE6F9E41C73D4BB2F61B8023F0882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61CD142C3E95F76C1B79EA3B295C0A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFC8D12B88A8FE6D5F883AA575AE149A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC08C4DC4C6129E1E02A01C2A5D6BF47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA28C83B5E84F545FBAAEA66CE5E2F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		064115CF4466264B34F6ED026CACEC64 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				31393D03CC2876A3C09336DEB6B03A4D /* AemiSDR.metallib */,
+			);
+			name = Resources;
+			path = "edge-blur/Classes/Resources";
+			sourceTree = "<group>";
+		};
+		0FCD2722742C7783C321CD1382FDABB0 /* Pods-edge-blur_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7727007C25A46427DB9053859C4F0F34 /* Pods-edge-blur_Example.modulemap */,
+				CA071D869E2713CAA1875F86F535A751 /* Pods-edge-blur_Example-acknowledgements.markdown */,
+				D8054492DE0B1169D1CB1B228D5EB757 /* Pods-edge-blur_Example-acknowledgements.plist */,
+				10DBCA497EF7AC17970066FCADDB1F5E /* Pods-edge-blur_Example-dummy.m */,
+				329A6A9F8AEC154A4A0B7EEF0DFA6D06 /* Pods-edge-blur_Example-frameworks.sh */,
+				E97C41FB56AEB59DB4058FA664713980 /* Pods-edge-blur_Example-Info.plist */,
+				900851B78A1F208C30062007C6505AED /* Pods-edge-blur_Example-umbrella.h */,
+				9EAAC4067A8BE7F367A7AD6FB4CB66EB /* Pods-edge-blur_Example.debug.xcconfig */,
+				73A06591F45DD7FB3290728D7253AD0D /* Pods-edge-blur_Example.release.xcconfig */,
+			);
+			name = "Pods-edge-blur_Example";
+			path = "Target Support Files/Pods-edge-blur_Example";
+			sourceTree = "<group>";
+		};
+		2591CD69670704B8D9BE1638B9679E8D /* UICorner */ = {
+			isa = PBXGroup;
+			children = (
+				8E7ED887A90B05D21055BA45D17FCACF /* UICornerContext.swift */,
+				9B0195CBD296896396A466CEB92CFD2B /* UICornerDiscoverable.swift */,
+				DC6759CED6DEF5EC53CAD39D4FDE4BDB /* UIScreen+Extensions.swift */,
+			);
+			name = UICorner;
+			path = "edge-blur/Classes/UICorner";
+			sourceTree = "<group>";
+		};
+		273663C9BCEF445142E990109B63B4A6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AB21F12F193DAC910869081909D1A0D /* edge-blur.modulemap */,
+				5AA09A47C8546F65CF455024A24A7296 /* edge-blur-dummy.m */,
+				3F5FBD86D6CB6D94C1BBE88855B81027 /* edge-blur-Info.plist */,
+				4ADBF7E964EFF761CB77DE6B0248E195 /* edge-blur-prefix.pch */,
+				6900A6D4C851E2BADCE527D1392DEF7B /* edge-blur-umbrella.h */,
+				1B108F9E70A541A3C258C396EA311C00 /* edge-blur.debug.xcconfig */,
+				4DBF6370563C9FD9A8240FED9DE41659 /* edge-blur.release.xcconfig */,
+				94655AFFA4AB912ADC49B80C654F7C4B /* ResourceBundle-edge-blur-edge-blur-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/edge-blur";
+			sourceTree = "<group>";
+		};
+		463CBBBD336991807904FD449B581787 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90FB359586899AF406953D20B3A17238 /* edge_blur.framework */,
+				3807CA3854FDA1D1ABD9DDB282E7B53B /* edge-blur.bundle */,
+				2A281283A4419450E82108E24CEE5B63 /* Pods_edge_blur_Example.framework */,
+				8E402DCAC22080776B7ADA8E5C8658D1 /* Pods_edge_blur_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B97F42474905CFB000EF01580905ADA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FCD2722742C7783C321CD1382FDABB0 /* Pods-edge-blur_Example */,
+				D0DBB853FD6EAA4808D1EEC81967F210 /* Pods-edge-blur_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		941C3E537DD018F049DAF7DEC29C4A96 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1544C576B28B97B95AD86B131FFD0A8 /* CIKernelCache.swift */,
+				D2F783F5032CA619BB6E4DA9ED2A5FE1 /* MaskType.swift */,
+				C605FA30515156BDD59632A2BE4F2E89 /* TransitionAlgorithm.swift */,
+				DD1D747D48373AC38F2C8CA8BF2A0F4F /* View+Extension.swift */,
+			);
+			name = Models;
+			path = "edge-blur/Classes/Models";
+			sourceTree = "<group>";
+		};
+		99927720C2921CF02C255962EEA49932 /* VariableBlur */ = {
+			isa = PBXGroup;
+			children = (
+				8D2940612429873B34CC9D177F7DA030 /* VariableBlurCache.swift */,
+				CE5EAC8830EA616BCBC616001A84F99A /* VariableBlurUIView.swift */,
+				584D026A955785F362B8AFFCD7541406 /* VariableBlurView.swift */,
+				E6C201E7AF781B707E26A341A02D759C /* View+VariableBlur.swift */,
+			);
+			path = VariableBlur;
+			sourceTree = "<group>";
+		};
+		9FA995D0B70768176E487028656CA395 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				48EDCE64B8DE2FB96AD6C55605CBBCED /* AemiSDR.ci.metal */,
+			);
+			name = Shaders;
+			path = "edge-blur/Classes/Shaders";
+			sourceTree = "<group>";
+		};
+		B69B9A29C757854562B2D0B3D6342FB5 /* AlphaMask */ = {
+			isa = PBXGroup;
+			children = (
+				C374D8BE54764637F8603139F691B8BB /* AlphaMaskCache.swift */,
+				3994C7A7ED62D6A2D1C1985B13078F15 /* AlphaMaskUIView.swift */,
+				9AA5344BE97E5D80CBDAA8185F77D515 /* AlphaMaskView.swift */,
+				6D4899E7CEC8C298A444691401F001F2 /* View+AlphaMask.swift */,
+			);
+			path = AlphaMask;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				EDC3F371C5C89B85852DAE1F979B001F /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				463CBBBD336991807904FD449B581787 /* Products */,
+				5B97F42474905CFB000EF01580905ADA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0DBB853FD6EAA4808D1EEC81967F210 /* Pods-edge-blur_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				38AC2E00667B85715586386B91EC7AD4 /* Pods-edge-blur_Tests.modulemap */,
+				88B6B6BAB4BDBE3414429835FE6011E5 /* Pods-edge-blur_Tests-acknowledgements.markdown */,
+				F6059803B4FC106760F7724886BDCE5B /* Pods-edge-blur_Tests-acknowledgements.plist */,
+				F9BAB47EA937D0203F7F9E60FFA4AD9D /* Pods-edge-blur_Tests-dummy.m */,
+				2B3CF78B76DF15D454D7278EEB1BA9B6 /* Pods-edge-blur_Tests-Info.plist */,
+				38D860432B34813D951B938343A7EC39 /* Pods-edge-blur_Tests-umbrella.h */,
+				EDA2F482C6F03F4798159AD6DDBA6F5D /* Pods-edge-blur_Tests.debug.xcconfig */,
+				DAF6459E0ECC9197C5B1E50123929EBD /* Pods-edge-blur_Tests.release.xcconfig */,
+			);
+			name = "Pods-edge-blur_Tests";
+			path = "Target Support Files/Pods-edge-blur_Tests";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7F4151B3AF9931A1E061A589046D767 /* edge-blur */ = {
+			isa = PBXGroup;
+			children = (
+				D9825B34141BDED11415AE3061C7E3E7 /* Effects */,
+				941C3E537DD018F049DAF7DEC29C4A96 /* Models */,
+				D8EFB6DB39E4B6075D6828F276574683 /* Pod */,
+				064115CF4466264B34F6ED026CACEC64 /* Resources */,
+				9FA995D0B70768176E487028656CA395 /* Shaders */,
+				273663C9BCEF445142E990109B63B4A6 /* Support Files */,
+				2591CD69670704B8D9BE1638B9679E8D /* UICorner */,
+			);
+			name = "edge-blur";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D8EFB6DB39E4B6075D6828F276574683 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				779AC16362C63526DD75BA75F0A2EA78 /* edge-blur.podspec */,
+				E6074FC335D16F3B4F3CD6DA5BB5DA42 /* LICENSE */,
+				E44C3833A761A24A8AADD64F4F5197EB /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D9825B34141BDED11415AE3061C7E3E7 /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				B69B9A29C757854562B2D0B3D6342FB5 /* AlphaMask */,
+				99927720C2921CF02C255962EEA49932 /* VariableBlur */,
+			);
+			name = Effects;
+			path = "edge-blur/Classes/Effects";
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EDC3F371C5C89B85852DAE1F979B001F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7F4151B3AF9931A1E061A589046D767 /* edge-blur */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6ADD5E9F71ABF745932AB1011D30E691 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835FC924CE629E75C0F62DAE7B8B4D86 /* Pods-edge-blur_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC4835E461B4C7447C8B83B7014D94B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB86DC61574EA14CF9CA9C792AAAC3A3 /* Pods-edge-blur_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D09A5E6C81ADB5F81EA752F851A1723 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B16B7E85214BF5EEB459C2B76F03FAA /* edge-blur-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		62AA0D99D88A5146FEF1B2BC78216EE1 /* edge-blur-edge-blur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 230D52DDA8DD4AEC9EFA946DEF37F3EF /* Build configuration list for PBXNativeTarget "edge-blur-edge-blur" */;
+			buildPhases = (
+				32B043A4C7A7BE7F89E4C6C49037B003 /* Sources */,
+				DFC8D12B88A8FE6D5F883AA575AE149A /* Frameworks */,
+				967D4B3D2FB24AB886E253EB492F052E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "edge-blur-edge-blur";
+			productName = "edge-blur";
+			productReference = 3807CA3854FDA1D1ABD9DDB282E7B53B /* edge-blur.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C66F947E3D3DB290FD48DFA46AE9C941 /* edge-blur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96E5483880C15F9BC7EC3BFB6FDB5DE /* Build configuration list for PBXNativeTarget "edge-blur" */;
+			buildPhases = (
+				7D09A5E6C81ADB5F81EA752F851A1723 /* Headers */,
+				964DFB6353E69AA28ADF3E8E76E13813 /* Sources */,
+				85EEA6FC043EB10AC76E95D8BA479EA4 /* Frameworks */,
+				7AAB664D67C101183C8F6C341715F707 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				286D9BECF2D083A03B3367CEFA560C73 /* PBXTargetDependency */,
+			);
+			name = "edge-blur";
+			productName = edge_blur;
+			productReference = 90FB359586899AF406953D20B3A17238 /* edge_blur.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CD5937B44F2321505455708E475AC850 /* Pods-edge-blur_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FA3289BA9EA752C847E6F7DE673430B /* Build configuration list for PBXNativeTarget "Pods-edge-blur_Example" */;
+			buildPhases = (
+				6ADD5E9F71ABF745932AB1011D30E691 /* Headers */,
+				A0D2A53A152D9DBE74DC6A5229F353B9 /* Sources */,
+				AD1DE6F9E41C73D4BB2F61B8023F0882 /* Frameworks */,
+				0E83AEB1CA5E849209D2D90ECCC585BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F9A3D8C0BC9658FE831F2385172CA91 /* PBXTargetDependency */,
+			);
+			name = "Pods-edge-blur_Example";
+			productName = Pods_edge_blur_Example;
+			productReference = 2A281283A4419450E82108E24CEE5B63 /* Pods_edge_blur_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF1B1D9AB73728009DC968237D98AC75 /* Pods-edge-blur_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211826A3FD87615A2EBC25D4427E1FDC /* Build configuration list for PBXNativeTarget "Pods-edge-blur_Tests" */;
+			buildPhases = (
+				7CC4835E461B4C7447C8B83B7014D94B /* Headers */,
+				DFEBEA17B02AEDD121AA3A9BA09582EE /* Sources */,
+				FC08C4DC4C6129E1E02A01C2A5D6BF47 /* Frameworks */,
+				5F5DC5E5EEB04019E3802A58BEB17459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				738D26EECA827A68B737E5608D47057C /* PBXTargetDependency */,
+			);
+			name = "Pods-edge-blur_Tests";
+			productName = Pods_edge_blur_Tests;
+			productReference = 8E402DCAC22080776B7ADA8E5C8658D1 /* Pods_edge_blur_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 463CBBBD336991807904FD449B581787 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C66F947E3D3DB290FD48DFA46AE9C941 /* edge-blur */,
+				62AA0D99D88A5146FEF1B2BC78216EE1 /* edge-blur-edge-blur */,
+				CD5937B44F2321505455708E475AC850 /* Pods-edge-blur_Example */,
+				CF1B1D9AB73728009DC968237D98AC75 /* Pods-edge-blur_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E83AEB1CA5E849209D2D90ECCC585BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5DC5E5EEB04019E3802A58BEB17459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AAB664D67C101183C8F6C341715F707 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C76992DFF09CD5EA5859B9FFB3EA40 /* edge-blur.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967D4B3D2FB24AB886E253EB492F052E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7FED7BEF282C794114C07005CA7D577 /* AemiSDR.metallib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32B043A4C7A7BE7F89E4C6C49037B003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964DFB6353E69AA28ADF3E8E76E13813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069E525A626351AB8CACDFBF8C88CE4D /* AemiSDR.metallib in Sources */,
+				8FB33C2847571C6FFC072EDD40C6791E /* AemiSDR.ci.metal in Sources */,
+				EBF467DC073FF8B9C10EB649E4A468E0 /* AlphaMaskCache.swift in Sources */,
+				BD4050D733E0E54C34649A93D07E71E7 /* AlphaMaskUIView.swift in Sources */,
+				84A35BCB121004C74001D976C30E208F /* AlphaMaskView.swift in Sources */,
+				ED3A5D4126FE482EDE0A9C0EF60F18F9 /* CIKernelCache.swift in Sources */,
+				9757068A7704D6012F8399CAA014132D /* edge-blur-dummy.m in Sources */,
+				3C16B54A5AA5F93844ECA9961D124087 /* MaskType.swift in Sources */,
+				3FEB7C16F433E08FCC2D2E49AB9232CE /* TransitionAlgorithm.swift in Sources */,
+				FB140C9CD07B76AC8E6A5EBC6806A153 /* UICornerContext.swift in Sources */,
+				08034F10D021BBE26E2ED2C4FD26A58B /* UICornerDiscoverable.swift in Sources */,
+				47FEAC126DEB1479511E6071F4EAF5E8 /* UIScreen+Extensions.swift in Sources */,
+				27941B1768BA95EBAB556C5569D7A6C3 /* VariableBlurCache.swift in Sources */,
+				00C701E4A6254E4B7E784BB3B0FFD89F /* VariableBlurUIView.swift in Sources */,
+				E39E11F81402ACFA172783B6F5B0F892 /* VariableBlurView.swift in Sources */,
+				57850158676B62C6559D0E36CD4C01CC /* View+AlphaMask.swift in Sources */,
+				FDB3F459ACA586B03CD6A38C1F9C41C7 /* View+Extension.swift in Sources */,
+				82E76C121785E1A6268585FCFDD8C778 /* View+VariableBlur.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D2A53A152D9DBE74DC6A5229F353B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE68EEAB798BEBF8906C8360F24DD53 /* Pods-edge-blur_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFEBEA17B02AEDD121AA3A9BA09582EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91540306EA19A01D5FEE27D8C16DF32D /* Pods-edge-blur_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F9A3D8C0BC9658FE831F2385172CA91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "edge-blur";
+			target = C66F947E3D3DB290FD48DFA46AE9C941 /* edge-blur */;
+			targetProxy = 011F8C64D25EC79B555D007DFD2A0758 /* PBXContainerItemProxy */;
+		};
+		286D9BECF2D083A03B3367CEFA560C73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "edge-blur-edge-blur";
+			target = 62AA0D99D88A5146FEF1B2BC78216EE1 /* edge-blur-edge-blur */;
+			targetProxy = 52E539F566B72C72A4B855D326F1C619 /* PBXContainerItemProxy */;
+		};
+		738D26EECA827A68B737E5608D47057C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-edge-blur_Example";
+			target = CD5937B44F2321505455708E475AC850 /* Pods-edge-blur_Example */;
+			targetProxy = 42BC78A12FD6419670312E33ED439E07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		084231DC969B70ED18F3CC7227779618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B108F9E70A541A3C258C396EA311C00 /* edge-blur.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/edge-blur/edge-blur-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/edge-blur/edge-blur-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/edge-blur/edge-blur.modulemap";
+				PRODUCT_MODULE_NAME = edge_blur;
+				PRODUCT_NAME = edge_blur;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1173CBCF6EE276CD3C571446D91DC2A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73A06591F45DD7FB3290728D7253AD0D /* Pods-edge-blur_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-edge-blur_Example/Pods-edge-blur_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-edge-blur_Example/Pods-edge-blur_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		35C23FDF2E913B4AF389A165D4E744D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAF6459E0ECC9197C5B1E50123929EBD /* Pods-edge-blur_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-edge-blur_Tests/Pods-edge-blur_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-edge-blur_Tests/Pods-edge-blur_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		710C8DC9A96DC192311F07971456C074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DBF6370563C9FD9A8240FED9DE41659 /* edge-blur.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/edge-blur";
+				IBSC_MODULE = edge_blur;
+				INFOPLIST_FILE = "Target Support Files/edge-blur/ResourceBundle-edge-blur-edge-blur-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				PRODUCT_NAME = "edge-blur";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B6780EE8FBB1341518CDA1E3185A9772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDA2F482C6F03F4798159AD6DDBA6F5D /* Pods-edge-blur_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-edge-blur_Tests/Pods-edge-blur_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-edge-blur_Tests/Pods-edge-blur_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B86D71A5E7AB53EB2C08DEA39FBD2050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BD5E84F7B72D348654A4D58B6BA51118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CCB7B168C7450F0C6539FDFA4C6D61DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B108F9E70A541A3C258C396EA311C00 /* edge-blur.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/edge-blur";
+				IBSC_MODULE = edge_blur;
+				INFOPLIST_FILE = "Target Support Files/edge-blur/ResourceBundle-edge-blur-edge-blur-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				PRODUCT_NAME = "edge-blur";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E36B95FCEBC45F8B2DFE56919D973E29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DBF6370563C9FD9A8240FED9DE41659 /* edge-blur.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/edge-blur/edge-blur-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/edge-blur/edge-blur-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/edge-blur/edge-blur.modulemap";
+				PRODUCT_MODULE_NAME = edge_blur;
+				PRODUCT_NAME = edge_blur;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9B0B21FE1487A0CB06C41F3F40E3C25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EAAC4067A8BE7F367A7AD6FB4CB66EB /* Pods-edge-blur_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-edge-blur_Example/Pods-edge-blur_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-edge-blur_Example/Pods-edge-blur_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		211826A3FD87615A2EBC25D4427E1FDC /* Build configuration list for PBXNativeTarget "Pods-edge-blur_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6780EE8FBB1341518CDA1E3185A9772 /* Debug */,
+				35C23FDF2E913B4AF389A165D4E744D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		230D52DDA8DD4AEC9EFA946DEF37F3EF /* Build configuration list for PBXNativeTarget "edge-blur-edge-blur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB7B168C7450F0C6539FDFA4C6D61DD /* Debug */,
+				710C8DC9A96DC192311F07971456C074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5E84F7B72D348654A4D58B6BA51118 /* Debug */,
+				B86D71A5E7AB53EB2C08DEA39FBD2050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FA3289BA9EA752C847E6F7DE673430B /* Build configuration list for PBXNativeTarget "Pods-edge-blur_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B0B21FE1487A0CB06C41F3F40E3C25 /* Debug */,
+				1173CBCF6EE276CD3C571446D91DC2A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E96E5483880C15F9BC7EC3BFB6FDB5DE /* Build configuration list for PBXNativeTarget "edge-blur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				084231DC969B70ED18F3CC7227779618 /* Debug */,
+				E36B95FCEBC45F8B2DFE56919D973E29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - edge-blur (0.1.0)
+
+DEPENDENCIES:
+  - edge-blur (from `../`)
+
+EXTERNAL SOURCES:
+  edge-blur:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  edge-blur: 68e20d8d9409d33a9dd602ddb53b1ef9c0478b6e
+
+PODFILE CHECKSUM: 85f1034da03e792af997c7e09c753cfa5f77634a
+
+COCOAPODS: 1.16.2
