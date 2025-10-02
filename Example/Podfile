@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'edge-blur_Example' do
+  pod 'edge-blur', :path => '../'
+
+  target 'edge-blur_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
