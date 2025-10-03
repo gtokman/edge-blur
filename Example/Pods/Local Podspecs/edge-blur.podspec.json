@@ -2,7 +2,7 @@
   "name": "edge-blur",
   "version": "0.1.0",
   "summary": "Variable and AlphaMask modifiers for SwiftUI.",
-  "description": "Variable and AlphaMask modifiers for SwiftUI.",
+  "description": "Variable and AlphaMask modifiers for SwiftUI. (https://github.com/Aemi-Studio/AemiSDR)",
   "homepage": "https://github.com/gtokman/edge-blur",
   "license": {
     "type": "MIT",
