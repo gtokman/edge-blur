@@ -58,16 +58,22 @@ class CIKernelCache {
     static let context: CIContext = {
         let p3 = CGColorSpace(name: CGColorSpace.displayP3)
         let opts: [CIContextOption: Any] = [
-            CIContextOption(string: kCIContextWorkingColorSpace): p3 as Any,
-            CIContextOption(string: kCIContextOutputColorSpace): p3 as Any,
             CIContextOption(
-                string: kCIContextCacheIntermediates
+                rawValue: CIContextOption.workingColorSpace.rawValue
+            ): p3 as Any,
+            CIContextOption(
+                rawValue: CIContextOption.outputColorSpace.rawValue
+            ): p3 as Any,
+            CIContextOption(
+                rawValue: CIContextOption.cacheIntermediates.rawValue
             ): false as NSNumber,
             CIContextOption(
-                string: kCIContextPriorityRequestLow
+                rawValue: CIContextOption.priorityRequestLow.rawValue
             ): true as NSNumber
         ]
-        return CIContext(options: opts as [String : Any])
+        return CIContext(
+            options: opts as [CIContextOption : Any]
+        )
     }()
     // Helper to resolve resource bundle in both SwiftPM and CocoaPods environments
     private enum ResourceBundle {

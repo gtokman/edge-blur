@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'edge-blur'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Variable and AlphaMask modifiers for SwiftUI.'
   
   s.description      = 'Variable and AlphaMask modifiers for SwiftUI. (https://github.com/Aemi-Studio/AemiSDR)'
